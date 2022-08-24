@@ -1,6 +1,5 @@
 /**
- * A function to handle a click on a checkout button. This function uses the eventCallback
- * data layer variable to handle navigation after the ecommerce data has been sent to Google Analytics.
+ * El valor de step debe variar dependiendo del paso que está aterrizando el cliente. 
  */
 function onCheckout() {
   dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
