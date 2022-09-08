@@ -4,6 +4,7 @@
 // containing one or more impressionFieldObjects.
 dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
 dataLayer.push({
+  'event': 'productImpression',
   'ecommerce': {
     'currencyCode': 'EUR',                       // Local currency is optional.
     'impressions': [
